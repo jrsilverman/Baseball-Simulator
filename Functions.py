@@ -2,10 +2,16 @@ import time
 import math
 
 def wait():  # Change both wait times to 0 for game to complete immediately
-	time.sleep(2)  # default 2
+	#time.sleep(.1)  # default 2
+	pass
 
 def wait_short():
-	time.sleep(.5)  # default .5
+	#time.sleep(.01)  # default .5
+	pass
+
+def wait_short2():
+	#time.sleep(.5)  # default .5
+	pass
 
 def batting_team(half_inning):
 	if half_inning % 2 == 0:
